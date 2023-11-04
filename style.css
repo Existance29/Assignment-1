@@ -100,6 +100,7 @@ nav a{
 
     header{
         display: grid;
+        align-content: center;
         grid-template-columns: 1fr auto minmax(600px, 1fr)
     }
 
