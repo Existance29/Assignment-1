@@ -11,13 +11,16 @@ header{
     left:0;
     background-color: #1C1D21;
     font-weight:600;
-    font-size: 15px;
-    height:8%;
+    font-size: 1vw;
+    height:3.9vw;
     text-align: center;
     color:white;
     position: fixed;
     z-index: 99;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .logo{
@@ -47,7 +50,10 @@ nav li{
     margin-bottom: 1em;
     margin-left: 1em;
 }
-
+nav a:hover {
+    border-bottom: 3px solid red;
+  }
+  
 nav a{
     text-decoration: none;
     color: white;
@@ -64,37 +70,17 @@ nav a{
 
 .nav-toggle-label{
     position: absolute;
-    top: 0;
     left: 0;
+    top:0;
     margin-left: 1em;
     height: 100%;
     display: flex;
     align-items: center;
+    
 }
 
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after{
-    display: block;
-    background: white;
-    height: 2px;
-    width: 2em;
-    border-radius: 2px;
-    position: relative;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after{
-    content: '';
-    position: absolute;
-}
-
-.nav-toggle-label span::before{
-    bottom: 7px;
-}
-
-.nav-toggle-label span::after{
-    top: 7px;
+.nav-toggle-label img{
+    height: 25%;
 }
 
 nav li{
@@ -104,7 +90,7 @@ nav li{
 
 .imga{
     margin-right: 5px;
-    height: 20px;
+    height: 1.2vw;
 }
 
 @media screen and (min-width: 800px){
@@ -147,15 +133,6 @@ nav li{
     
 }
 
-.dashboard{
-    position: absolute;
-    width: 100%;
-    height: auto;
-    top: 50px;
-    left: 0px;
-    right: 0px;
-}
-
 .background_img{
     width: 100%;
     z-index: -99;
@@ -188,6 +165,10 @@ nav li{
 }
 
 .content{
-    display: flex;
-    flex-direction: column;
+    position: absolute;
+    width: 100%;
+    height: auto;
+    top: 3.9vw;
+    left: 0px;
+    right: 0px;
 }
