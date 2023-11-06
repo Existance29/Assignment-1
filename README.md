@@ -1,12 +1,10 @@
-# Your Project's Name
+# Dota2 Wiki
 
-One or two paragraphs providing an overview of your project. Tell us about your project.
+This website is an official wiki for Dota2. Dota2 is a multiplayer online battle arena (MOBA) game by valve, and is the sequel to its predecessor Dota. This website serves to document information about the game, including game mechanics, updates, characters and more. It aims to allow players to have convenient access to information about the game and community-made content. Currently, the [official dota2](https://www.dota2.com/home) website only contains informaton about the hereoes, and the [unofficial dota2 wiki](https://dota2.fandom.com/wiki/Dota_2_Wiki) is under maintained and is lacking in user experience. This is because the unofficial wiki is built on fandom, which limits the design options. Hence, this website aims to replace the unofficial wiki and supplement the main website for in-game information. Being an official website, it is expected to be managed by Valve itself, which ensures that its content is accurate and up to date. It also comes with an improvement with user-experience, notably the lack of advertisments that plagued the unofficial wiki and more flexibility with its design.
 
-Essentially, this part is your sales pitch.
- 
 ## Design Process
  
-Provide us insights about your design process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
+The goal of the design was to make a minimalistic wiki with organised content. 
 
 In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
 - As a user type, I want to perform an action, so that I can achieve a goal.
@@ -58,8 +56,9 @@ If this section grows too long, you may want to split it off into a separate fil
 - The text for section Y was copied from the [Wikipedia article Z](https://en.wikipedia.org/wiki/Z)
 
 ### Media
-- The photos used in this site were obtained from ...
+- All photos used in this site were obtained from [The Official Dota2 website](https://en.wikipedia.org/wiki/Z)
+- Icons were obtained from [Coolicons](https://www.figma.com/community/file/800815864899415771/coolicons-free-iconset) and [Iconly 2](https://www.figma.com/community/file/996610000954670629)
 
 ### Acknowledgements
 
-- I received inspiration for this project from X
+- I received inspiration for this project from [Prydwen.gg - Honkai: Star Rail wiki and database](https://www.prydwen.gg/star-rail/)
